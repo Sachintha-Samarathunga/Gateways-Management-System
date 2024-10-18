@@ -115,7 +115,7 @@ describe('Gateways', () => {
 
     /**
      * Test the /DELETE/:id route
-     */
+     */ // Comment
     describe('/DELETE/:id gateway', () => {
         it('it should DELETE a gateway given the id', (done) => {
             let gateway = new Gateway({name: "Gateway 1", serial: "111111", ip: "192.168.0.1"});
